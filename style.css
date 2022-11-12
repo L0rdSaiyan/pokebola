@@ -96,7 +96,7 @@ body {
 
 }
 
-#pikachu{
+#pokemon{
 
 position: absolute;
 
@@ -108,12 +108,12 @@ position: absolute;
 
 }
 
-#imgPikachu{
+#imgPokemon{
 
     width: 400px;
     height: 350px;
     margin-top: -150px;
-
+    visibility: visible;
 
 }
 
