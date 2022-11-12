@@ -33,7 +33,21 @@ body{
 
     width: 600px;
     height: 50px;
-    background-color: gray;
+    background-color: black;
     position: absolute;
+    border-radius: 2px 2px 3px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#botao{
+
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 200px;
+
 
 }
