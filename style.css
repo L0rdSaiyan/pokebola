@@ -28,3 +28,12 @@ body{
     border-radius: 0 0 300px 300px;
 
 }
+
+#faixa{
+
+    width: 600px;
+    height: 50px;
+    background-color: gray;
+    position: absolute;
+
+}
