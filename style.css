@@ -5,6 +5,7 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(360deg, red, white);
 
 }
 
@@ -13,8 +14,17 @@ body{
 #topo{
 
     width: 600px;
-    height: 400px;
+    height: 300px;
     background-color: red;
-    border-radius: 700px 700px 0 0;
+    border-radius: 300px 300px 0 0;
+
+}
+
+#base{
+
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 0 0 300px 300px;
 
 }
