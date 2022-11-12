@@ -1,4 +1,4 @@
-body{
+body {
 
     margin: 0;
     display: flex;
@@ -10,42 +10,55 @@ body{
 }
 
 
+.pokebola {
 
-#topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 
-    width: 600px;
-    height: 300px;
+}
+
+#topo {
+
+    width: 400px;
+    height: 200px;
     background-color: red;
     border-radius: 300px 300px 0 0;
+    position: absolute;
+    margin-top: -200px;
 
 }
 
-#base{
+#base {
 
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     background-color: white;
     border-radius: 0 0 300px 300px;
+    position: absolute;
+    margin-top: 200px;
 
 }
 
-#faixa{
+#faixa {
 
-    width: 600px;
-    height: 50px;
+    width: 400px;
+    height: 30px;
     background-color: black;
     position: absolute;
     border-radius: 2px 2px 3px 4px;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 
 }
 
-#botao{
+#botao {
 
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: black;
     border-radius: 200px;
     display: flex;
@@ -55,23 +68,61 @@ body{
 
 }
 
-#botao2{
+#botao2 {
 
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     background-color: white;
-    border-radius: 100px;
+    border-radius: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-#botao3{
+#botao3 {
 
     width: 60px;
     height: 60px;
     border-radius: 60px;
-    background-color: rgb(90, 89, 89);
+    background-color: rgb(116, 110, 110);
+
+}
+
+#botao3:hover {
+
+    background-color: rgb(77, 75, 75);
+    cursor: pointer;
+
+}
+
+#abrirTopo {
+
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    border-radius: 300px 300px 0 0;
+    animation-name: abrir;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    transform: rotate(-70deg);
+    transition: 200ms;
+    z-index: 2;
+
+}
+
+@keyframes abrir {
+
+    from{
+
+        margin-top: -200px;
+
+
+    }
+
+    to{
+        margin-right: 450px;
+        margin-top: -470px;
+    }
 
 }
