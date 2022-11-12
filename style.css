@@ -102,6 +102,12 @@ position: absolute;
 
 }
 
+#img{
+
+    visibility: hidden;
+
+}
+
 #imgPikachu{
 
     width: 400px;
