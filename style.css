@@ -1,0 +1,20 @@
+body{
+
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#topo{
+
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    border-radius: 700px 700px 0 0;
+
+}
