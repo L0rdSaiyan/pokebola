@@ -96,6 +96,22 @@ body {
 
 }
 
+#pikachu{
+
+position: absolute;
+
+}
+
+#imgPikachu{
+
+    width: 400px;
+    height: 350px;
+    margin-top: -150px;
+
+
+}
+
+
 #abrirTopo {
 
     width: 400px;
