@@ -1,10 +1,18 @@
 function abrirPokebola(){
 
-    const topo = document.querySelector('#topo')
-    const pokemon = document.querySelector('#img')
-    topo.id = "topo"
-    topo.id = "abrirTopo"
-    pokemon.id = 'img'
+    let topo = document.querySelector('#topo')
+    let pokemon = document.querySelector('#img')
+    let base = document.querySelector('#base')
+    let faixa = document.querySelector('#faixa')
+    let classe = document.querySelector('.pokebola')
+
+    classe.className = "pokebolarolar"
+
+
+    setTimeout(abrir => {
+        
+        topo.id = "abrirTopo"
+
 
     let numero = Math.floor((Math.random()*3)+1)
     console.log(numero)
@@ -24,6 +32,18 @@ function abrirPokebola(){
     }
 
     pokemon.id = "imgPokemon"
+    
+    setTimeout(fechar=>{
+
+        topo.id = "topo"
+        pokemon.id = "img"
 
 
+    },3000)
+
+
+
+    }, 3000);
+
+    
 }

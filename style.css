@@ -16,6 +16,20 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
+    
+
+}
+
+.pokebolarolar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: 200ms;
+    animation-name: rolar;
+    animation-duration: 3s;
+
 
 }
 
@@ -27,6 +41,7 @@ body {
     border-radius: 300px 300px 0 0;
     position: absolute;
     margin-top: -200px;
+    box-shadow: 5px 10px 20px 5px black inset;
 
 }
 
@@ -38,6 +53,8 @@ body {
     border-radius: 0 0 300px 300px;
     position: absolute;
     margin-top: 200px;
+    box-shadow: 5px 10px 20px 10px black inset;
+
 
 }
 
@@ -122,6 +139,7 @@ position: absolute;
 
     width: 400px;
     height: 200px;
+    box-shadow: 5px 10px 20px black inset;
     background-color: red;
     border-radius: 300px 300px 0 0;
     animation-name: abrir;
@@ -146,5 +164,28 @@ position: absolute;
         margin-right: 450px;
         margin-top: -470px;
     }
+
+}
+
+@keyframes rolar {
+    
+    33%{    transform: rotate(-20deg);
+            
+    }
+
+    66%{
+
+        transform: rotate(20deg);
+        
+
+    }
+
+    100%{
+
+        transform: rotate(-20deg);
+        
+    }
+
+  
 
 }
