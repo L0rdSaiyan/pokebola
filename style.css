@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(360deg, white,red);
+    background-image: linear-gradient(360deg, #851C23, #B42831,#861D24);
 
 }
 
@@ -274,7 +274,6 @@ body {
     border: 3px solid black;
     background-color: red;
     color: white;
-    font-family: 'Pokemon Solid', sans-serif;
                                                 
 
 }
@@ -314,12 +313,12 @@ body {
 
     transform: scale(1.1);
     cursor: pointer;
-
+    transition: 200ms;
 }
 
 span{
 
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Pokemon Solid', sans-serif;
     margin: 20px;
   
