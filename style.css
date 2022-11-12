@@ -61,5 +61,17 @@ body{
     height: 100px;
     background-color: white;
     border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#botao3{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: rgb(90, 89, 89);
 
 }
