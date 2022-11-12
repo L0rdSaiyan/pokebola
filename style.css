@@ -16,11 +16,11 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    
+
 
 }
 
-.pokebolarolar{
+.pokebolarolar {
 
     display: flex;
     justify-content: center;
@@ -113,19 +113,19 @@ body {
 
 }
 
-#pokemon{
+#pokemon {
 
-position: absolute;
+    position: absolute;
 
 }
 
-#img{
+#img {
 
     visibility: hidden;
 
 }
 
-#imgPokemon{
+#imgPokemon {
 
     width: 400px;
     height: 350px;
@@ -153,14 +153,14 @@ position: absolute;
 
 @keyframes abrir {
 
-    from{
+    from {
 
         margin-top: -200px;
 
 
     }
 
-    to{
+    to {
         margin-right: 450px;
         margin-top: -470px;
     }
@@ -168,24 +168,62 @@ position: absolute;
 }
 
 @keyframes rolar {
-    
-    33%{    transform: rotate(-20deg);
-            
+
+    33% {
+        transform: rotate(-20deg);
+
     }
 
-    66%{
+    66% {
 
         transform: rotate(20deg);
-        
+
 
     }
 
-    100%{
+    100% {
 
         transform: rotate(-20deg);
-        
+
     }
 
-  
+
+
+}
+
+#botaoAbrir {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: rgb(116, 110, 110);
+    animation-name: btnAbrir;
+    animation-duration: 3s;
+
+}
+
+@keyframes btnAbrir {
+
+
+    33% {
+        background-color: red;
+
+    }
+
+    66% {
+
+        background-color: rgb(116, 110, 110);
+
+
+
+    }
+
+    100% {
+
+        background-color: red;
+
+    }
+
+
 
 }
