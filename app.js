@@ -74,6 +74,7 @@ function abrirPokebola() {
             pokemon.id = "img"
             btn.id = "botao3"
             classe.className = "pokebola"
+            pokemon.src = ""
 
 
         }, 3000)
